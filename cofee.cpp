@@ -1,7 +1,7 @@
 #include "cofee.h"
 
-
-Cofee::Cofee(/* args */)
+Cofee::Cofee(int sugar)
+    : _sugar(sugar)
 {
 }
 
