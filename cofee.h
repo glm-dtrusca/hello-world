@@ -1,9 +1,10 @@
 
 class Cofee
 {
-private:
-    /* data */
-public:
-    Cofee(/* args */);
+  private:
+    int _milk;
+
+  public:
+    Cofee(int milk);
     ~Cofee();
 };

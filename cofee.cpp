@@ -1,7 +1,7 @@
 #include "cofee.h"
 
-
-Cofee::Cofee(/* args */)
+Cofee::Cofee(int milk)
+    : _milk(milk)
 {
 }
 
